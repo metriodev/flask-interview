@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    environment:
+      LOG_LEVEL: info
+      ENVIRONMENT: dev
+      BUCKET_NAME: test-bucketzzzaaa
+    ports:
+      - "8080:8080"
